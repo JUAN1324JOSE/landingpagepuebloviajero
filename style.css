@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+/* Navegación */
+.navbar-dark .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #f8f9fa;
+}
+
+/*Héroe */
+.hero {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 150px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    font-size: 1.2rem;
+}
+
+/* Características */
+#features .card {
+    border: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+#features .card:hover {
+    transform: translateY(-10px);
+}
+
+/* Testimonios */
+#testimonials .testimonial {
+    background-color: #198754;
+    color: white; /* Cambia el color del texto a blanco */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#testimonials .carousel-control-prev,
+#testimonials .carousel-control-next {
+    filter: invert(1);
+}
+
+
+/* Galería */
+#gallery img {
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#gallery img:hover {
+    transform: scale(1.05);
+}
+
+/*Descarga */
+#download .btn-dark, #download .btn-success {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+
+/*Mapa */
+#map {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/*Página */
+footer {
+    font-size: 0.9rem;
+    background-color: #343a40;
+    color: #fff;
+}
+
+footer a {
+    color: #adb5bd;
+    transition: color 0.3s ease-in-out;
+}
+
+footer a:hover {
+    color: #f8f9fa;
+}
